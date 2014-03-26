@@ -1,6 +1,6 @@
 # Kirakira
 
-TODO: Write a gem description
+This is Cinch plugin that convert message to rainbow.
 
 ## Installation
 
@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'cinch'
+require 'kirakira'
+
+bot = Cinch::Bot.new do
+  configure do |c|
+    # add all required options here
+    c.plugins.plugins = [Kirakira]
+  end
+end
+
+bot.start
+```
+
+## Command
+
+```console
+k destination_channel message
+```
 
 ## Contributing
 
