@@ -35,7 +35,7 @@ bot.start
 ## Command
 
 ```console
-k destination_channel message
+k [destination_channel] [message]
 ```
 
 ## Contributing
