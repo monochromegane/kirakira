@@ -30,7 +30,6 @@ bot = Cinch::Bot.new do
 end
 
 bot.start
-
 ```
 
 ## Command
